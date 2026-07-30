@@ -17,3 +17,11 @@ def  chat():
     return {
         "message":"Chat point is working"
     }
+    
+    
+
+@app.get("/greet")
+def greet():
+    return{
+        "message":"Anshika revise kar rhi h"
+    }
